@@ -1,12 +1,75 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>My First Web Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Éclat Naturel | 自然の輝きを、肌に。</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>こんにちは！</h1>
-  <p>GitHub Pagesで公開されたページです。</p>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Éclat Naturel</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#concept">コンセプト</a></li>
+          <li><a href="#products">製品一覧</a></li>
+          <li><a href="#about">ブランドについて</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>自然の輝きを、肌に。</h2>
+      <p>オーガニックと科学の融合。あなたの美しさを引き出す化粧品。</p>
+      <a href="#products" class="btn">製品を見る</a>
+    </div>
+  </section>
+
+  <section id="concept" class="section">
+    <div class="container">
+      <h2>ブランドコンセプト</h2>
+      <p>
+        Éclat Naturelは、厳選された天然成分と最新の皮膚科学を融合させたスキンケアブランドです。
+        肌に負担をかけず、内側から美しくなる力を引き出します。
+      </p>
+    </div>
+  </section>
+
+  <section id="products" class="section">
+    <div class="container">
+      <h2>製品一覧</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/serum.jpg" alt="美容液">
+          <h3>ピュアセラム</h3>
+          <p>透明感を引き出す集中美容液。</p>
+        </div>
+        <div class="product-card">
+          <img src="images/cream.jpg" alt="クリーム">
+          <h3>ナチュラルクリーム</h3>
+          <p>肌のバリア機能をサポートする保湿クリーム。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>ブランドについて</h2>
+      <p>
+        フランス発の自然派スキンケアブランドとして、サステナブルな原材料と環境に優しい製造工程にこだわっています。
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Éclat Naturel. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
